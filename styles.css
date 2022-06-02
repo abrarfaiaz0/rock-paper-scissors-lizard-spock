@@ -1,0 +1,40 @@
+body{
+    margin:40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-ctn{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    flex-grow: 1;
+}
+.button>button{
+    padding: 20px 30px 20px 30px;
+    width: 100%;
+}
+div{
+    border: 2px solid red;
+    margin: 4px;
+}
+.center-text{
+    text-align: center;
+}
+#verdict{
+    color: red;
+    font-size: xx-large;
+}
+.choose-ctn{
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    font-size: x-large;
+}
