@@ -130,7 +130,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Abrar Faiaz Atuno - [@Twitter](https://twitter.com/abrarfaiaz0) - abrarfaiaz0@pm.me
+Abrar Faiaz Atuno - [@Twitter](https://twitter.com/abrarfaiaz0) [LinkedIn](https://www.linkedin.com/in/abrar-faiaz-a1684b194) - abrarfaiaz0@pm.me
 
 Project Link: [github](https://github.com/abrarfaiazatuno/rock-paper-scissors-lizard-spock)
 
