@@ -7,17 +7,31 @@
         <link rel="stylesheet" href="styles.css"></link>
     <title>Rock-Paper-Scissors</title>
 </head>
-<body>
-    <div class="container">
-        <div class="center-text">
-                <h1>Welcome to Rock Paper Scissors!</h1>
+<body class="container">
+    <div class="last-ctn" id="last-ctn">
+        <div><img id="modal" src="resources/images/RPSLS.png"></div>
+        <div class="help"><button id="understood">Understood</button></div>
+    </div>
+        <div class="center-text top-text top-ctn">
+            <div class="help">
+                <button class="help-bt" id="modal-btn">
+                    Rules
+                </button>
+            </div>
+            <div class="top-cnt">
+                <div class="text-style">ROCK PAPER SCISSORS </div>
+                <div class="text-style">LIZARD SPOCK</div>
+            </div>
+            <div>
+                
+            </div>
         </div>
         
         <div class="choose-ctn center-text">
-            <div>You chose<div class="block" id="player-ch"></div> </div>
-            <div>Computer chose<div class="block" id="computer-ch"></div> </div>
+            <div class="ch-ctn"><div class="center-text">You chose</div><div class="block" id="player-ch">START</div></div>
+            <div class="ch-ctn"><div class="center-text">Computer chose</div><div class="block" id="computer-ch">START</div></div>
         </div>
-        <div class="center-text" id="verdict">
+        <div class="center-text text-style" id="verdict">
             Press any button to start playing
         </div>
         <div class = "button-ctn">
@@ -30,9 +44,18 @@
             <div class="button">
                 <button id="s-button">Scissors</button>
             </div>
+            <div class="button">
+                <button id="l-button">Lizard</button>
+            </div>
+            <div class="button">
+                <button id="sp-button">Spock</button>
+            </div>
             
         </div>
-        
+        <div class="footer">
+            <p>Created by © <a href="https:www.facebook.com/abrarfaiazatuno">abrarfaiazatuno</a></p>
+        </div>
+    
     
 </body>
 <script src="script.js"></script>
